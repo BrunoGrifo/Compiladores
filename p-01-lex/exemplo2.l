@@ -10,7 +10,7 @@ int numints = 0;
 int main()
 {
 yylex();
-printf("Numero de inteiros encontrados=%d", numints);
+printf("Numero de inteiros encontrados=%d\n", numints);
 return 0;
 }
 
