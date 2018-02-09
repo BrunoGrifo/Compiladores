@@ -14,7 +14,7 @@ a*(bc)+				{printf("Token!");}
 {numero}e"-"{numero}		{printf("floating point");}
 {numero}e"+"{numero}		{printf("float point	");}
 {numero}f			{printf("float");}
-\".*\"			{printf("String Java");}
+\".*\"				{printf("String Java");}
 %%
 int main()
 {
